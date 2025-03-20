@@ -25,8 +25,5 @@ public class Lab040_Relational_Operators {
         // age_pramod > age_mamitha or age_pramod = age_mamitha
 
 
-
-
-
     }
 }

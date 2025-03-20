@@ -7,11 +7,9 @@ public class Lab079if_else {
         Scanner s1 = new Scanner(System.in);
         System.out.println("Enter your age");
         int age = s1.nextInt();
-        if(age>=18)
-        {
+        if (age >= 18) {
             System.out.println("Eligible for voting");
-        }
-        else{
+        } else {
             System.out.println("Not eligible for voting");
         }
     }

@@ -18,7 +18,7 @@ public class Lab049_All_Operators {
         //     // +=, -=, /=, *=
         int age = 10;
 //        age += 10; // // age = age+10;
-        age /=10; // age = age/10
+        age /= 10; // age = age/10
         System.out.println(age);
 
 
@@ -38,7 +38,6 @@ public class Lab049_All_Operators {
 
         // ++,-- - Increment and Decrement Operator
         // Ternary Operator ?:
-
 
 
     }

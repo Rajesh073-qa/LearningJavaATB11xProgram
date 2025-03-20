@@ -4,7 +4,7 @@ public class Lab095_Interview {
     public static void main(String[] args) {
 
         int a = 11;
-        switch (-1){
+        switch (-1) {
             default:
                 System.out.println("Default");
                 break;
@@ -15,7 +15,6 @@ public class Lab095_Interview {
                 System.out.println("9");
                 break;
         }
-
 
 
     }

@@ -7,7 +7,7 @@ public class Lab086_switch {
         Scanner s1 = new Scanner(System.in);
         System.out.println("Enter the character");
         int a = s1.nextInt();
-        switch(a){
+        switch (a) {
             case 1:
                 System.out.println("case 1");
             case 2:

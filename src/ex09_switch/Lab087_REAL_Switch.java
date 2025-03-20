@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 public class Lab087_REAL_Switch {
     public static void main(String[] args) {
-        Scanner s1=new Scanner(System.in);
+        Scanner s1 = new Scanner(System.in);
         System.out.println("Enter the browser");
-        String browser=s1.next();
-        switch(browser){
+        String browser = s1.next();
+        switch (browser) {
             case "chrome":
                 System.out.println("chrome browser will launch");
                 break;

@@ -7,7 +7,7 @@ public class Lab091_Interview {
         }
         byte b = 1;
         //type casting
-        switch((int)b){
+        switch ((int) b) {
 
         }
     }

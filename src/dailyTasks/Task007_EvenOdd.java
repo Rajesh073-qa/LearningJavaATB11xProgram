@@ -14,14 +14,11 @@ public class Task007_EvenOdd {
 
         //type2
         Scanner s1 = new Scanner(System.in);
-        System.out.println("Enter the number :" );
+        System.out.println("Enter the number :");
         int number = s1.nextInt();
-        if(number%2==0)
-        {
+        if (number % 2 == 0) {
             System.out.println("The given is even number");
-        }
-        else
-        {
+        } else {
             System.out.println("The given is odd number");
         }
 

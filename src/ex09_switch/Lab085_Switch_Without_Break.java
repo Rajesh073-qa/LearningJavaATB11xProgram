@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Lab085_Switch_Without_Break {
     public static void main(String[] args) {
-        Scanner s1=new Scanner(System.in);
+        Scanner s1 = new Scanner(System.in);
         System.out.println("Enter the number");
-        int number=s1.nextInt();
+        int number = s1.nextInt();
         //All cases will be executed if we not use the break;
-        switch(number){
+        switch (number) {
             case 1:
                 System.out.println("Monday, Tuesday");
             case 2:

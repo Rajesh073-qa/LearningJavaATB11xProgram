@@ -11,7 +11,7 @@ public class Lab042_Interview_Concat_Plus {
 
         String name1 = "Pramod";
         String name2 = "Dutta";
-        System.out.println(name1+name2);
+        System.out.println(name1 + name2);
 
         // + -> behave differently with the data type.
         // + -> operator overloading

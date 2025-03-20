@@ -10,7 +10,7 @@ public class Lab084_switch {
         Scanner s1 = new Scanner(System.in);
         System.out.println("Enter the number");
         int age = s1.nextInt();
-        switch(age){
+        switch (age) {
             case 1:
                 System.out.println("Monday");
                 break;

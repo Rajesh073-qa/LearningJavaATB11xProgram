@@ -10,7 +10,8 @@ public class Lab068_Real_Age_Classification {
         int age = Integer.parseInt(age1);
 
 
-      String result = (age<=18) ? "minor" : (age<=65) ? "adult" : "senior" ;
+        String result = (age <= 18) ? "minor" : (age <= 65) ? "adult" : "senior";
         System.out.println(result);
 
-    }}
+    }
+}
