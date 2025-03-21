@@ -37,7 +37,6 @@ public class Task009_Fibonacci {
                 System.out.print(next + " ");
                 a = b;
                 b = next;
-
             }
         }
 
