@@ -25,20 +25,24 @@ public class Task009_Fibonacci {
         Scanner scanner = new Scanner(System.in); // Create a Scanner object to read input from the user
         System.out.println("Welcome to the Fibonacci Program\nEnter the no whose Fibonacci series you want!"); // Prompt the user for input
         int num = scanner.nextInt();
+        int series = Fibonacci(num);
         if (num < 1) {
             System.out.println("Please enter a positive number.");
         } else if (num == 1) {
             System.out.println("0");
-        } else {
-            int a = 0, b = 1;
-            System.out.print(a + " " + b + " ");  // Print first two numbers
-            for (int i = 2; i < num; i++) {
-                int next = a + b;
-                System.out.print(next + " ");
-                a = b;
-                b = next;
-            }
         }
+    }
 
+    private static int Fibonacci(int num) {
+        int a = 0, b = 1;
+        System.out.print(a + " " + b + " ");
+        for (int i = 2; i < num; i++) {
+            int next = a + b;
+            System.out.print(next + " ");
+            a = b;
+            b = next;
+
+        }
+        return num;
     }
 }

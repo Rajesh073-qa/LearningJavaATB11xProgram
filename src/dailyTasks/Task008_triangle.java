@@ -8,19 +8,31 @@ import java.util.Scanner;
 public class Task008_triangle {
     public static void main(String[] args) {
         Scanner s1 = new Scanner(System.in);
-        System.out.println("Enter the l1");
-        int l1 = s1.nextInt();
-        System.out.println("Enter the l2");
-        int l2 = s1.nextInt();
-        System.out.println("Enter the l3");
-        int l3 = s1.nextInt();
-        if (l1 == l2 && l2 == l3) {
-            System.out.println("equilateral (all sides are equal)");
+        System.out.println("Enter the side1");
+        int side1 = s1.nextInt();
+        System.out.println("Enter the side2");
+        int side2 = s1.nextInt();
+        System.out.println("Enter the side3");
+        int side3 = s1.nextInt();
+
+        //Edge cases
+        if (side1 <= 0 || side2 <= 0 || side3 <= 0) {
+            System.out.println("This ia not a triangle");
+            System.exit(0);
         }
-        if (l1 == l2 || l2 == l3 || l3 == l1) {
-            System.out.println("isosceles (exactly two sides are equal)");
+        if (side1 + side2 <= side3 || side2 + side3 <= side1 || side3 + side1 <= side2) {
+            System.out.println("This is not a triangle");
+            System.exit(0);
+        }
+        if (side1 == side2 && side2 == side3) {
+            System.out.println("Equilateral triangle");
+        }
+        if (side1 == side2 || side2 == side3 || side3 == side1) {
+            System.out.println("Isosceles");
         } else {
-            System.out.println("scalene (no sides are equal)");
+            System.out.println("Scalene");
         }
+
+
     }
 }
