@@ -34,13 +34,13 @@ public class Task009_Fibonacci {
     }
 
     private static int Fibonacci(int num) {
-        int a = 0, b = 1;
-        System.out.print(a + " " + b + " ");
+        int first = 0, second = 1;
+        System.out.print(first + " " + second + " ");
         for (int i = 2; i < num; i++) {
-            int next = a + b;
+            int next = first + second;
             System.out.print(next + " ");
-            a = b;
-            b = next;
+            first = second;
+            second = next;
 
         }
         return num;
