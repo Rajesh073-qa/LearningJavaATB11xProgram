@@ -15,7 +15,6 @@ public class Task012_Palindrome {
 
         }
     }
-
     private static String reverseString(String input) {
         String reversed = "";
         for (int i = input.length() - 1; i >= 0; i--) {
