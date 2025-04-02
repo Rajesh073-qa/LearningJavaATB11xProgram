@@ -7,7 +7,7 @@ package dailyTasks;
 // 4. With_Parameters_and_With_Return_Type
 public class Task020_OOPs {
     public static void main(String[] args) {
-        Person p1 = new Person();
+        Person1 p1 = new Person1();
         p1.sleep();
         p1.isMarrierd();
         p1.greet_with_details("Rajesh", 27, 789892.3);
@@ -15,7 +15,7 @@ public class Task020_OOPs {
     }
 }
 
-class Person {
+class Person1 {
     String name;
     String Ph_no;
     byte age;
