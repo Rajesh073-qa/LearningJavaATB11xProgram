@@ -2,8 +2,7 @@ package ex18_OOPs_Constructor;
 public class Lab173_OOPs_Constructor {
     public static void main(String[] args) {
         Baby b1 = new Baby();
-        new Baby();
-        Baby b2;
+        b1.eat();
     }
 }
 class Baby {
