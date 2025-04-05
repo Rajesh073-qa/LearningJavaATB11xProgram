@@ -15,7 +15,6 @@ public class Lab189_Ecap_Demo {
         System.out.println(goodVWOLogin.getPassword());
 
     }
-
 }
 
 class VWO_log {
