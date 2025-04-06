@@ -1,4 +1,4 @@
-package dailyTasks.Task026_simple_program;
+package dailyTasks.Task026_if_else_program;
 
 //Check if a Character is a Vowel or Consonant.
 public class Task4_vowels {

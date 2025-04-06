@@ -1,4 +1,4 @@
-package dailyTasks.Task026_simple_program;
+package dailyTasks.Task026_if_else_program;
 
 import java.util.Scanner;
 

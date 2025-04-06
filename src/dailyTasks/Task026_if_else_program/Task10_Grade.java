@@ -1,4 +1,4 @@
-package dailyTasks.Task026_simple_program;
+package dailyTasks.Task026_if_else_program;
 //Calculate Grade Based on Marks. (Follow Below Steps to Write Program.)
 //1️⃣ Take user input for marks (Use Scanner class).
 //2️⃣ Check the validity of marks (ensure they are between 0 and 100).
