@@ -1,4 +1,4 @@
-package ex_25_OOPs_Abstraction_Interface;
+package ex25_OOPs_Abstraction_Interface;
 
 public class Lab199_Interface {
     public static void main(String[] args) {
