@@ -19,8 +19,6 @@ public class Lab213_wrapper_conversion {
         Integer a2 = 42;
         int v = a2; // Unboxing -> wrapper is removed, attribute, behaviour is lost.
         System.out.println(v);
-
-
     }
 }
 
