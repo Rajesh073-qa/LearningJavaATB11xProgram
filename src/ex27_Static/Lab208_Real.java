@@ -11,9 +11,9 @@ public class Lab208_Real {
         System.out.println("Mentor - " + ATB.MentorName);
         ATB.DoAssignement();
         ATB.ZoomClass();
-
     }
 }
+
 class ATB {
     static {
         System.out.println("Load the class?, I will execute");

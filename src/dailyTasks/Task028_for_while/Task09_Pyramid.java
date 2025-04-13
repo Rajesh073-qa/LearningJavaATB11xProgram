@@ -1,9 +1,8 @@
-package dailyTasks;
+package dailyTasks.Task028_for_while;
 
-public class Task019_Pyramid {
+public class Task09_Pyramid {
     public static void main(String[] args) {
-        int rows = 5; // You can change this to print more/less rows
-
+        Integer rows = 5;
         for (int i = 1; i <= rows; i++) {
             // Print spaces before stars
             for (int j = 1; j <= rows - i; j++) {
@@ -18,3 +17,4 @@ public class Task019_Pyramid {
         }
     }
 }
+
