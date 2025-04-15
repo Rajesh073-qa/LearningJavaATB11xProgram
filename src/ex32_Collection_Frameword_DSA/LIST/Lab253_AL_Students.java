@@ -1,6 +1,5 @@
-package ex32_Collection_Frameword_DSA;
+package ex32_Collection_Frameword_DSA.LIST;
 
-import java.util.*;
 public class Lab253_AL_Students {
     public static <Student> void main(String[] args) {
 //        Student s1 = new Student("Amit","1");

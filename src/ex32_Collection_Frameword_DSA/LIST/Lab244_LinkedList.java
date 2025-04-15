@@ -1,4 +1,4 @@
-package ex32_Collection_Frameword_DSA;
+package ex32_Collection_Frameword_DSA.LIST;
 
 import java.util.LinkedList;
 import java.util.List;

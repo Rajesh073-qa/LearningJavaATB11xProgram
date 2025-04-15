@@ -1,4 +1,4 @@
-package ex32_Collection_Frameword_DSA;
+package ex32_Collection_Frameword_DSA.LIST;
 
 public class Lab240 {
     // Problem
