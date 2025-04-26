@@ -33,11 +33,6 @@ Below is a list of Java topics covered in this repository:
 | 25 | Generics                         |
 | 26 | Collection Framework             |
 
-![Screenshot 2025-03-08 at 10 57 25 AM](https://github.com/user-attachments/assets/0a454d9e-aae2-449e-a7bb-7dd7ce86550c)
-
-
-
-
 ## API Testing Projects
 Below are the API testing projects practiced using Postman:
 
