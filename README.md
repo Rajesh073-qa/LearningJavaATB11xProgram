@@ -1,13 +1,13 @@
-# LearningATB10xJavaPrograms
+# LearningATB11xJavaPrograms
 
 ## Java Topics Covered
 Below is a list of Java topics covered in this repository:
 
 
-| #  | Topic                             |
+| #  | Topic                            |
 |----|----------------------------------|
-| 01 | Java Basic                      |
-| 02 | Java Basics                     |
+| 01 | Java Basic                       |
+| 02 | Java Basics                      |
 | 03 | Literals                         |
 | 04 | Operators                        |
 | 05 | Type Casting                     |
@@ -20,9 +20,9 @@ Below is a list of Java topics covered in this repository:
 | 12 | Do-While Loop                    |
 | 13 | Functions                        |
 | 14 | Strings                          |
-| 15 | String Functions                  |
+| 15 | String Functions                 |
 | 16 | Arrays                           |
-| 17 | Object-Oriented Programming (OOP) |
+| 17 | Object-Oriented Programming (OOP)|
 | 18 | OOPs - Constructors              |
 | 19 | OOPs - Part 2                    |
 | 20 | OOPs - Super & Abstraction       |
@@ -41,12 +41,12 @@ Below is a list of Java topics covered in this repository:
 ## API Testing Projects
 Below are the API testing projects practiced using Postman:
 
-| #  | Project Name                              |
+| #  | Project Name                             |
 |----|------------------------------------------|
 | 1  | E2E Scenario #1                          |
 | 2  | SOAP API Testing                         |
 | 3  | Restful Booker (API Project)             |
-| 4  | Opencart Registration API Testing       |
-| 5  | Data-Driven Testing using Postman       |
+| 4  | Opencart Registration API Testing        |
+| 5  | Data-Driven Testing using Postman        |
 
 This repository serves as a learning path for Java fundamentals and API testing using Postman.
