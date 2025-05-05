@@ -1,0 +1,26 @@
+Scenario TID,TestCase Description,PreCondition,TestSteps,Expected Result,Actual Result,Status
+TC1,Verify token generation with valid username and password,Postman installed,Open Postman → Import request → Enter pramod/password123 → Send,"200 OK, token generated",To be filled,To be Executed
+TC2,Verify token generation fails with empty username and password,Postman installed,Open Postman → Leave username and password blank → Send,400 Bad Request or 401 Unauthorized,To be filled,To be Executed
+TC3,Verify token generation fails with username -1 and valid password,Postman installed,Enter username -1 and password → Send,401 Unauthorized,To be filled,To be Executed
+TC4,Verify token generation fails with only username pramod and no password,Postman installed,Enter username pramod and blank password → Send,400 Bad Request,To be filled,To be Executed
+TC5,Verify token generation with username pramod123 and valid password,Postman installed,Enter pramod123 and password → Send,401 Unauthorized,To be filled,To be Executed
+TC6,Verify token generation fails with special characters in username !@#$%^%$,Postman installed,Enter username !@#$%^%$ and password → Send,400 Bad Request,To be filled,To be Executed
+TC7,Verify token generation with username starting with number 123pramod,Postman installed,Enter 123pramod and password → Send,401 Unauthorized,To be filled,To be Executed
+TC8,Verify token generation fails with username 0 and password,Postman installed,Enter 0 and password → Send,400 Bad Request,To be filled,To be Executed
+TC9,Verify token generation fails with blank username and valid password,Postman installed,"Blank username, valid password → Send",400 Bad Request,To be filled,To be Executed
+TC10,Verify token generation fails with username as null string,Postman installed,Enter null as username → Send,400/401 Unauthorized,To be filled,To be Executed
+TC11,Verify token generation fails with very long username 98765432345678987654345678 (28 chars),Postman installed,Enter very long username → Send,400/413 Request Too Large,To be filled,To be Executed
+TC12,Verify token generation fails with username having special characters %%%pramod%%,Postman installed,Enter %%%pramod%% and password → Send,400 Bad Request,To be filled,To be Executed
+TC13,Verify token generation fails with decimal-like username 12.34,Postman installed,Enter 12.34 and password → Send,400/401 Unauthorized,To be filled,To be Executed
+TC14,Verify token generation fails with hex-like username 0x0876567,Postman installed,Enter 0x0876567 and password → Send,400/401 Unauthorized,To be filled,To be Executed
+TC15,Verify token generation with all uppercase username PRAMOD,Postman installed,Enter PRAMOD and password → Send,Depends (case sensitive),To be filled,To be Executed
+TC16,Verify token generation with Arabic characters وتتحمّل والكوري ف,Postman installed,Enter Arabic username → Send,400/401 Unauthorized,To be filled,To be Executed
+TC17,Verify token generation with Chinese characters 𡨸漢,Postman installed,Enter Chinese characters username → Send,400/401 Unauthorized,To be filled,To be Executed
+TC18,Verify token generation with username field >255 characters,Postman installed,Enter a username with 256 characters and password → Send,400 Bad Request (Field Validation Error),To be filled,To be Executed
+TC19,"Verify token generation with username as only whitespace "" """,Postman installed,Enter only spaces in username field → Send,400 Bad Request,To be filled,To be Executed
+TC20,Verify token generation with username field as emoji characters 😀😃😄,Postman installed,Enter emojis as username → Send,400 Bad Request,To be filled,To be Executed
+TC21,Verify token generation with missing username key from JSON,Postman installed,Send request body without username field → Send,400 Bad Request (Missing Field),To be filled,To be Executed
+TC22,Verify token generation with missing password key from JSON,Postman installed,Send request body without password field → Send,400 Bad Request (Missing Field),To be filled,To be Executed
+TC23,Verify token generation with completely empty body {},Postman installed,Send empty JSON body {} → Send,400 Bad Request,To be filled,To be Executed
+TC24,Verify token generation with invalid JSON body,Postman installed,Send broken/invalid JSON → Send,400 Bad Request,To be filled,To be Executed
+TC25,Verify token generation when sending extra keys in JSON,Postman installed,"Send request with extra fields (eg: username, password, dummyField) → Send",Should ignore extra field and validate based on required ones,To be filled,To be Executed
